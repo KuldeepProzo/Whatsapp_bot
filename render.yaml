@@ -2,9 +2,8 @@ services:
   - type: web
     name: whatsapp-gpt-bot
     runtime: python
-    repo: https://github.com/your-username/whatsapp-gpt-bot
-    pythonVersion: 3.11.8       # ✅ Force Python version (equivalent to runtime.txt)
-    buildCommand: ""            # Optional: leave blank if no custom build needed
+    repo: https://github.com/KuldeepProzo/Whatsapp_bot
+    buildCommand: ./build.sh
     startCommand: python app.py
     envVars:
       - key: OPENAI_API_KEY
