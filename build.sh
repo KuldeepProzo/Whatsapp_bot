@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 
-# Force Render to use the correct Python version and install dependencies
+# Set correct Python version for Render
+echo "python-3.11.8" > runtime.txt
+
 echo "🔧 Installing dependencies..."
 pip install --upgrade pip
 
-# Install dependencies from requirements.txt (force binary wheels for pandas)
+# Install dependencies (use binary for pandas)
 pip install --only-binary=:all: pandas
 pip install -r requirements.txt
 
