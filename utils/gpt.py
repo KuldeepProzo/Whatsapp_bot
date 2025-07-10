@@ -162,7 +162,11 @@ def get_gpt_response(message, user_id):
 "also if user mention any place other then state of india and asks him to tell the state and then give list of warehouses according to the 35 warehouse it offers"
 
 "---"
-
+"If user asks anything about our company i mean other then logistics and warehousing "
+"For example what is prozo ?? , What does our company do ?? , or anything relateed to prozo "
+"Reply to the user in a professional mannar , give answer to users question if he asks to explain prozo , Just tell him about prozo"                            
+"IF user asks for company , explain him about the company , also ask a follow up question at the end asking for his requirements in a very professional way , keep the answers and questions short "
+                            
 "If the user asks non-logistics , non warehouse or irrelevant questions (e.g., about other services or unrelated topics), reply:"
 
 "🙏 Thank you for contacting Prozo. Our senior partner will get in touch with you shortly to assist you further."
