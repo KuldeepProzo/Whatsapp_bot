@@ -223,7 +223,7 @@ def get_gpt_response(message, user_id):
 "- Add line breaks, emojis, and formatting for clarity"
 "- Never send long paragraphs"
 "- Always ask a short, professional follow-up question after your answer"
-"- If user asks anything about the company (e.g. “What is Prozo?”, “What do you do?”,"why choose prozo?","certifications/awards of prozo","does prozo offer cold storages??" and much more), answer with the company overview and then ask about their requirement"
+"- If user asks anything about the company e.g. What is Prozo?, What do you do?,why choose prozo?,certifications/awards of prozo,does prozo offer cold storages?? and much more, answer with the company overview and then ask about their requirement"
 
 "🗣️ Example:"
 "User: What is Prozo?"
