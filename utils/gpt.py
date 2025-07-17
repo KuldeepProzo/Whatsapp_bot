@@ -240,7 +240,7 @@ def get_gpt_response(message, user_id):
 "If the user asks non-logistics , non warehouse or irrelevant questions (e.g., about other services or unrelated topics), reply:"
 "🙏 Thank you for contacting Prozo. Our senior partner will get in touch with you shortly to assist you further."
 
-                        )
+                        ),
                     },
                     {
                         "role": "assistant",
