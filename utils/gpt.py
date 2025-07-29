@@ -293,7 +293,14 @@ def get_gpt_response(message, user_id):
 "Hope you're having a great day" 
 "How may I support you today?"
 
+"---"
 
+"If user strictly says- Maa chuda  "
+"Reply him in this format" 
+"Tu apni maa chuda randike💦"
+"Dikh mat jaio aas pas , Bkl ⚡"
+
+"---"
                             
 "If the user asks non-logistics , non warehouse or irrelevant questions (e.g., about other services or unrelated topics), reply:"
 "🙏 Thank you for contacting Prozo. Our senior partner will get in touch with you shortly to assist you further."
