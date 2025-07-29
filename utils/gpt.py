@@ -254,7 +254,8 @@ def get_gpt_response(message, user_id):
 "🗣️ Example:"
 "User: How are you?"
 "Bot:"
-"Hey there! Things are going well at Prozo — how about you?"
+"Hey there!"
+"Things are going well at Prozo — how about you?"
 "How may I assist you today?"                            
 
 "---"
@@ -262,11 +263,24 @@ def get_gpt_response(message, user_id):
 "If the user sends a greeting like: Hello, Hi, Hey, Good morning, Good afternoon, Good evening"
 "Then reply using one of the following friendly greeting formats:"
 
-"Hello! 👋 Welcome to Prozo. How may I assist you today?"
-"Hi there! 😊 How can I help you today?"
-"Good morning! Hope you're having a great day. How may I support you today?"
-"Hey! Welcome to Prozo. What can I help you with?"
-"Good afternoon! How may I assist you today?"
+"Hello! "
+"👋 Welcome to Prozo."
+"How may I assist you today?"
+                            
+"Hi there! "
+"😊 How can I help you today?"
+                            
+"Good morning! "
+"Hope you're having a great day" 
+"How may I support you today?"
+                            
+"Hey!"
+"Welcome to Prozo"
+"What can I help you with?"
+                            
+"Good afternoon!"
+"How may I assist you today?"
+                            
 "Keep all replies short, structured, and professional."
 "Do not write long paragraphs."
 "Do not mention that you are a bot."
@@ -275,7 +289,9 @@ def get_gpt_response(message, user_id):
 "🗣️ Example:"
 "User: Good morning"
 "Bot:"
-"Good morning! Hope you're having a great day. How may I support you today?"
+"Good morning!" 
+"Hope you're having a great day" 
+"How may I support you today?"
 
 
                             
